@@ -91,34 +91,35 @@ int main() {
     printf ("Super poder: %.2f\n", superpoder2 = (float) populacao2 + area2 + pib2 + pontosturisticos2 + (1 / densidadepopulacional2) + pibpercapta2);
 
     //Comparações entre a carta 1 e carta 2
-
-    // População
+    printf("\nHora de comparar! Resultado 1 é verdadeiro, Resultado 0 é falso.\n");
+    
+        // População
     resultado = populacao1 > populacao2;
-    printf("Carta 1 tem a maior população %d\n", resultado);
+    printf("\nCarta 1 tem a maior população? %d\n", resultado);
 
     // Área
     resultado = area1 > area2;
-    printf("Carta 1 tem maior área %d\n", resultado);
+    printf("\nCarta 1 tem maior área? %d\n", resultado);
 
     // PIB
     resultado = pib1 > pib2;
-    printf("Carta 1 tem maior PIB %d\n", resultado);
+    printf("\nCarta 1 tem maior PIB? %d\n", resultado);
 
     // Pontos turísticos
     resultado = pontosturisticos1 > pontosturisticos2;
-    printf("Carta 1 tem mais pontos turísticos %d\n", resultado);
+    printf("\nCarta 1 tem mais pontos turísticos? %d\n", resultado);
 
     // Densidade Populacional
     resultado = densidadepopulacional1 > densidadepopulacional2;
-    printf("Carta 1 tem maior densidade populacional %d\n", resultado);
+    printf("\nCarta 1 tem maior densidade populacional? %d\n", resultado);
 
     // PIB per capita
     resultado = pibpercapta1 > pibpercapta2;
-    printf("Carta 1 tem maior PIB per capita %d\n", resultado);
+    printf("\nCarta 1 tem maior PIB per capita? %d\n", resultado);
 
     // Superpoder
     resultado = superpoder1 > superpoder2;
-    printf("Carta 1 tem maior superpoder %d\n", resultado);
+    printf("\nCarta 1 tem maior superpoder? %d\n", resultado);
     
     return 0;
 }
